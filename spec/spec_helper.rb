@@ -1,7 +1,7 @@
 require 'rspec'
 require 'resolv'
 
-require 'macros/zones_macro'
+require_relative 'macros/zones_macro'
 
 RSpec.configure do |config|
   config.tty = true
